@@ -138,7 +138,7 @@ background-repeat: no-repeat;
     height:20em !important;
 }
 
-
+/* 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,button{
     color: rgba(27, 30, 33, 1);
     background-color:rgba(188, 240, 0, 1);
@@ -157,7 +157,7 @@ background-repeat: no-repeat;
     .nav-tabs {
         border-bottom: 1px solid #dee2e6;
         background-color: black;
-    }
+    } */
     .formbtn,.formstyle{
         background-color: black;
         color:white;
@@ -182,4 +182,33 @@ background-repeat: no-repeat;
         outline: 0;
         box-shadow: 0px 0px 0px 0.2rem rgba(0,123,255,0.25);
     }
+    .signin{
+        margin-left: 2.5em;
+    }
+    .form-group  {
+       border-radius: 0 !important;
+       
+      }
+      .form-group {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .btn-primary {
+        color: #000;
+        background-color: rgba(188, 240, 0, 1);
+        border-color: rgba(188, 240, 0, 1);
+    }
     
+    .center form{
+        text-align:center;
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color: rgba(116, 184, 0, 1);
+        border-color: rgba(116, 184, 0, 1);
+    }
+    .btn{
+        margin-left:4em !important; 
+    }
