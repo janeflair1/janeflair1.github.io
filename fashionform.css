@@ -195,7 +195,7 @@ background-repeat: no-repeat;
         width: 100%;
         margin-bottom: 15px;
       }
-      .btn-primary {
+      .btn-primary,.btn-success{
         color: #000;
         background-color: rgba(188, 240, 0, 1);
         border-color: rgba(188, 240, 0, 1);
@@ -204,11 +204,32 @@ background-repeat: no-repeat;
     .center form{
         text-align:center;
     }
-    .btn-primary:hover {
+    .btn-primary:hover, 
+    .btn-primary:focus,
+    .btn-primary:active {
         color: #fff;
-        background-color: rgba(116, 184, 0, 1);
-        border-color: rgba(116, 184, 0, 1);
+        background-color: rgba(116, 184, 0, 1) !important;
+        border-color: rgba(116, 184, 0, 1)!important;
     }
     .btn{
-        margin-left:4em !important; 
+        margin-left:3em !important; 
     }
+    .modal-content,.close{
+        font-family: 'Lato', sans-serif;
+        background-color: black;
+        color:white;
+    }
+    h5{
+        font-family: 'Vidaloka', serif;  
+    }
+    
+   
+    .centerbtn{
+margin-left:10em !important;
+    }
+  
+    .fa-whatsapp-square,
+    .fa-shopping-bag,
+    .fa-calendar-alt{
+        color:black;
+    } 
