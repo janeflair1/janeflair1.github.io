@@ -232,4 +232,12 @@ margin-left:10em !important;
     .fa-shopping-bag,
     .fa-calendar-alt{
         color:black;
-    } 
+    .menu_links {
+         cursor: pointer;
+         }
+
+         .top {
+            height: 31.25em;
+            width: 80em;
+        }
+        
