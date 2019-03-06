@@ -1,0 +1,76 @@
+html,body{
+  
+    width:100% !important;
+    height:100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+
+}
+.background{
+    background: linear-gradient(rgba(38,23,41,.5),rgba(236,109,97,.5)), url('https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 1x, https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 2x');
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+.left{
+    margin-bottom: 10em;
+
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 9em;
+    font-size: 3.2em;
+    text-align: center;
+}
+
+
+.des{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3{
+    color: rgb(128, 71, 92);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0.5em;
+}
+.backform{
+    background-color: white;
+}
+/* .upper{
+    /* display: list-item;
+    list-style-type: decimal; */
+    /* content:counter(my-counter,decimal);
+} */ */
+
+form {
+	counter-reset: section;
+}
+.upper dt:before {
+	content: counter(section);
+	counter-increment: section;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:  rgb(78, 50, 61);
+    border-color:  rgb(78, 50, 61);
+}
+.btn-primary:active{
+    background-color:  rgb(78, 50, 61) !important;
+    border-color:  rgb(78, 50, 61) !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(193, 83, 123, 1);
+    border-color: rgba(193, 83, 123, 1);
+}
+.form-control:focus {
+    border-color: rgb(216, 144, 170);
+    box-shadow: inset 0 1px 1px rgba(216, 144, 170, 1), 0 0 8px rgba(216, 144, 170, 1);
+  }

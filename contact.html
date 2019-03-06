@@ -1,0 +1,141 @@
+<!DOCTYPE  html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Raleway:500,700" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    
+    <div class="container-fluid ml-0 mr-0">
+        <div class="row">
+        <div class="col background ">  
+             <h1 id="title" class="distance">Fashion Styling Service</h1>
+             <p id="description" class="des">New Client Questionare </p>
+            
+        </div>
+    <div class="col  my-4  mx-4 backform">
+            
+     <form id="survey-form" class="needs-validation mx-auto " method="get">
+
+<h3>Personal Profile</h3>
+<section>
+  <label for="name-label">Full Name:</label>
+<input class="form-control" type="text" id="name-label" placeholder="Name" name="name"> <br>
+<label for="email-label">E-mail:</label>
+<input class="form-control" type="email" id="email-label" placeholder="Email" name="email"> <br>
+<label for="number-label">Age:</label>
+<input class="form-control" type="number" id="number-label" placeholder="Age" name="age" min="1" max="100"> <br>
+</section>
+
+<h3>Styling Profile</h3>
+<section>
+<label for="dropdown" class="upper">  1. How often do you buy clothing?</label> <br>
+<select class="form-control"name="buy" id="dropdown">
+        <option value="week">Once a week</option>
+        <option value="month">Once a month</option>
+        <option value="few">A few times in months</option>
+        <option value="hardly">Hardly ever</option>
+ </select>
+ <fieldset>
+ <div >
+     <p class="mt-3 upper">2. How would you descibe your look</p>
+        <input type="radio" id="effortless" name="style" value="effortless"
+               checked>
+        <label for="effortless">Effortless and laid-back</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="statement" name="style" value="statement">
+        <label for="statement">I make a statement</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="detail" name="style" value="detail">
+        <label for="detail">Pretty with alot of detail </label>
+      </div>
+      <div>
+            <input type="radio" id="Monochrome" name="style" value="Monochrome">
+            <label for="Monochrome">Unstructured and monochrome </label>
+          </div>
+        </fieldset>
+        <fieldset>
+                <div>
+                    <p class="upper">3. How much do you spend on clothes</p>
+                       <input type="radio" id="20" name="amount" value="20"
+                              checked>
+                       <label for="20">Up to $20</label>
+                     </div>
+                     
+                     <div>
+                       <input type="radio" id="50" name="amount" value="50">
+                       <label for="50"> Up to $50</label>
+                     </div>
+                     
+                     <div>
+                       <input type="radio" id="75" name="amount" value="75">
+                       <label for="75">Up to $75 </label>
+                     </div>
+                     <div>
+                           <input type="radio" id="100" name="amount" value="100">
+                           <label for="100">Up to $100</label>
+                         </div>
+        </fieldset>
+        <fieldset>
+<p class="upper">4.  What do you look for when you are shopping clothes?(you can chose more than one)</p>
+<div >
+        <input type="checkbox" id="Quality" name="preference" value="Quality">
+        <label for="Quality">Quality</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Price" name="preference" value="Price">
+        <label for="Price"> Price</label>
+      </div>
+      <div>
+            <input type="checkbox" id="Style" name="preference" value="Style">
+            <label for="Style">Style</label>
+          </div>
+          <div>
+                <input type="checkbox" id="Discount" name="preference" value="Discount">
+                <label for="Discount">Discount</label>
+              </div>
+        </fieldset>
+        <textarea class="form-control mt-4"name="textarea"
+   rows="5" cols="30"
+   placeholder="Comments"></textarea>
+   <button type="submit" class="btn btn-primary btn-lg btn-block mt-4">Submit</button>
+      </section>
+  
+    </div>
+</div>
+
+</div>
+
+  
+    
+           
+            
+           
+           
+            
+           
+
+    
+   
+   
+   
+  
+           
+           
+            
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
+</html>
