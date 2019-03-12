@@ -1,0 +1,56 @@
+.menu{
+    display: flex; /* or inline-flex */
+    flex-direction: column ;
+    text-align: center;
+  }
+
+  .title{
+      padding: 1.5em;
+      background: black;
+      color:white;
+  }
+
+  img{
+      height:20em;
+      width:100%;
+      
+  }
+
+  h2,p{
+      text-align: center;
+      margin-top: 2em;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+
+  .contain {
+    object-fit: contain;
+/*   
+    width: 20em;
+    height: 20em; */
+  }
+
+  .overflow{
+    overflow: hidden;
+    }
+
+    ul a:hover,a:focus {
+        /* text-decoration: underline; */
+        border-bottom: solid 3px rgb(212, 142, 77);
+        cursor: pointer;
+        color:black;
+    }
+  
+    ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      .recolor{
+     color: rgb(212, 142, 77);
+      }
+
+      a{
+          color:rgb(100, 98, 98);
+          font-family: 'Roboto', sans-serif;
+      }
