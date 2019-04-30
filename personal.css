@@ -1,0 +1,216 @@
+body{
+    display: inline;
+    font-family: 'Lora', serif;
+}
+
+.backgroundimg{
+
+background: 
+/* top, transparent red, faked with gradient */ 
+linear-gradient(
+  rgba(56, 54, 54, 0.60), 
+  rgba(56, 54, 54, 0.60)
+),
+/* bottom, image */
+ url("https://lh3.googleusercontent.com/GXqlFHGVNmsTB_PiPXq6TglmaFu32GI3RBEviG_Q6nstcj7QhVXvHDOc6I1U4F3-f6GpaSVfAyZBApFmDRozBrC0fLorrcqPtCvMltOMoLeu4Q9lMkOGQo6RYZwi2MmdXXVmFsCbEw90NR0XKDZP4-uOuX7arySExft4oC3ion3Z_DouDcyfMGaZAMx77XaFEeo6o1DN_oIsPe5cKKNv6bCgW-waeBEA8olvl10VOv0eMUPCHm1KKTMx_ecWwQ6ui-wg6dpuYXRdEDE_bp0SpoA2DIkteP89bS8qQfEAx9hwgxee4zzPB4kEg5UIzsv0CqEc_5B0f0LsXSbgQa5JUyxhcJ_rx9uOeWtJEaCgVS6wn3UcE5-nzQNvopsdcJp3QC6tk-m-hltR7Sz0ZpxHLSbzFrx24xu36CC2sDGO6fzXmJCHYMMYhCzU4Sd6RJgJsshnCtIW2tw9oHQLH0TGn7Td8H082iqKX9IjW4TCdm5p50tVv3jZBOiHm0P2tYkSYnijpIDekxM_FnLhd5yed1vZyS5KgChndjnukYoeY4DRm8FzdkFCTZB-hJ3yjDBMJLycwx3z2cgOouQyFpfXp2eHbPRUpOJEFoiRj1GiUWtILLd_QVOEvzLAKpTE4N-F1VfbRZeUZvUlLt02EzpqUJynqftaFVU=w612-h816-no");
+
+
+
+padding: 10em 0 20em 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color:white;
+background-attachment: fixed;
+}
+h1{
+    font-size: 3em;
+    margin-left: 3em;
+    font-family: 'Berkshire Swash', cursive;
+}
+.content{
+    margin-left: 5em; 
+    font-size: 2em;
+}
+.artist{
+color:rgb(192, 48, 192);
+
+
+}
+h2{
+    font-family: 'Berkshire Swash', cursive;  
+}
+.aboutme{
+display:grid;
+grid-template-areas: "section1 section2";
+grid-template-columns: 2fr 3fr;
+grid-gap:10px; 
+
+background-color: #1f1f1f;
+    color:white;
+margin: 3em;
+
+}
+.section1{
+grid-area: section1;
+
+}
+ 
+
+.img2{
+grid-area:img2;
+padding-bottom:5em;
+height:21em;
+/* background:url("https://lh3.googleusercontent.com/2zGNqpx_kgApo6p-ADxh4VA8fNfhEDQUh4O5Jqw0FmGJ24dJ9ajLbrzHVjjUygZQ_1xspvk-QiamVlOc_NUgTDTJy-PF54V9hPce1PsJ09E-Sg5iupVYQAdD3kdxswa4KqTg0p4HsgpGU2JdVW99pAd4vEn63z3AKqbUjlvssKER6awZWinKLDvPxKa1iscZLOvjBQsE7ubJLw_qp1o2gjukxdECTTRCch00R8NDhoGhobDX22XhmQ_-iSfxH6iSxXks9iHns883tn8bHtnDe2Kr2jND1JjoU0bSvBkXdrrvV-Z3303awtoUXHn--cOm8Hifo_1elu5v1YglTpdj-5vW8-LzVL6cXcWiwd3Udk_G7j7TgHuupBNtWgxEg-vJNC1CynBEVzYvdUUUglQEAFPoQhZVjs3AKyK2Uk0OFvwOOgN0NF07APiA7s4Jqk_OrLE1-iqUvmcOOT4kmI4EgZJwGawZQgTZCzyeqwj8pQdOIpHVAOmRBFMIh7boQIkVR_-AapoysNTn3AYakEEMQBPxH78VVHEonARXVLDTE3yq00E1hqXw_ZVFeSJnBisyHQJaFlg9OA8ec6gYuwONwer1dELwjsL8oeMQFFjkmPLsWq7f9TkBThhLKcA7WvKT-YuttEEf0Krcmgdh_k4puoN7VNeCbec=w618-h842-no"); */
+background: url("https://lh3.googleusercontent.com/rYYl5EBAkwqGdYnTSUnkKhwfeDUDqmajD-khDycE1wJ11-QtFBluT-qFlFoGlHgHrGpVYbiALG_IpRiXyCRmzWbFKS0BUwF39ueuVPm15d-1fly-O19J3wbr__EGkR1ck0DDkNe7x2bB4v9FH3UAfoiLchsDFWYUOhaaXlQS5iLlyNAjuGpY38669Q0d4ZPfNiDfXD3bxHQ54df4uaygRhiI6AAzbDqaaYFu4a3mLF_cAzVVbnLUHjdUDCjZ81DisSjY-SZtXogbn2xG41JjsKDySyNzNrgj233vkHbv0gm2vHUxaSzEVaucRD-FDmmp_57Q6mC_8H7iXq6WJp1Cp6I_PZoCddrsBqMjfKOPc07Sj3Q1Ni6PSmhD1c_cI170K3UkNDMy4JghaMjAEPz3dfrw6Jrtk-7TJLsFqJ6iM32LzkzPCwebFrRlRxvnyKlz8yiWi5sxcASjidL7GjiIEs2NKpdLSRE_sEyig3F4X49J9E5VYT0jlH-pZGhMZt5NEyqzqK5dMnjVdsHoDNGt7nADFTxyee7r1OEGnTRQfYpeqmBgOcc15tbgVGat1gE3dukF_ehdxKLaxuqQV1PcFhrIv7NXTosybJIsZTc1PnF6-45oQA17evVvKsrtR7Y3lty4Dxg3a4sDhlPwyeopF8Jm6oUz7cY=w885-h842-no");
+background-position: center;
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+.section2 {
+grid-area: section2;
+margin:3em;
+}
+.tab{
+    text-align:center;
+}
+
+
+
+a{
+    margin: 0 3em 0 3em;
+}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .infosec{
+        background: rgb(209, 209, 211);
+       
+        padding:10%;
+    }
+    .imggal{
+        background: purple;
+       
+        padding:10%;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: "info galla";
+        grid-template-columns: 2fr 3fr;
+        
+        grid-gap:20px;
+       
+    }
+
+    .infosec{
+        grid-area:info;
+    }
+
+   .imggal{
+    grid-area:galla;
+
+    }
+    h3,.portfolio{
+        text-align:center;
+    }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .contact{
+      margin-left:1em;
+
+  }
+  button{
+      padding:10px 10px;
+      background:white;
+      color:#1f1f1f;
+      font-size: 1em;
+      cursor: pointer;
+  }
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #6d1abb;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;
+color:black;
+}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color:  #6d1abb;
+    color: white;
+  }
+ /* .drawing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "";
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ } */
